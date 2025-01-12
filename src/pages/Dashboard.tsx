@@ -11,21 +11,21 @@ const mockData = {
         date: "2024-03-20",
         description: "Direct Deposit - Employer",
         amount: 2500.00,
-        type: "credit"
+        type: "credit" as const
       },
       {
         id: 2,
         date: "2024-03-19",
         description: "Amazon.com",
         amount: 54.99,
-        type: "debit"
+        type: "debit" as const
       },
       {
         id: 3,
         date: "2024-03-18",
         description: "Grocery Store",
         amount: 127.35,
-        type: "debit"
+        type: "debit" as const
       }
     ]
   },
@@ -39,14 +39,14 @@ const mockData = {
         date: "2024-03-15",
         description: "Transfer from Checking",
         amount: 1000.00,
-        type: "credit"
+        type: "credit" as const
       },
       {
         id: 2,
         date: "2024-03-01",
         description: "Interest Payment",
         amount: 12.50,
-        type: "credit"
+        type: "credit" as const
       }
     ]
   },
@@ -60,21 +60,21 @@ const mockData = {
         date: "2024-03-17",
         description: "Restaurant Payment",
         amount: 85.00,
-        type: "debit"
+        type: "debit" as const
       },
       {
         id: 2,
         date: "2024-03-16",
         description: "Gas Station",
         amount: 45.00,
-        type: "debit"
+        type: "debit" as const
       },
       {
         id: 3,
         date: "2024-03-15",
         description: "Payment Thank You",
         amount: 500.00,
-        type: "credit"
+        type: "credit" as const
       }
     ]
   }
